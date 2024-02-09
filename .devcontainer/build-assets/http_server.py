@@ -1,13 +1,14 @@
-# Simple wrapper for http.server
+"""# Simple wrapper for http.server
 # to switch off caching for users
 #
 # Matt Rudge
-# 20th April, 2023
+# 20th April, 2023"""
 
 import http.server
 
 
 class NoCacheHTTPHandler(http.server.SimpleHTTPRequestHandler):
+    """NoCacheHTTPHandler"""
     def end_headers(self):
         """
         Overrides default end_headers method
