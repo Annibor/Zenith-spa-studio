@@ -4,7 +4,7 @@ from . import views
 
 
 urlpatterns = [
-   # path(""),
-   # path("home"),
+    path("", views.starting_page, name="starting_page"),
+   # path("home","),
    # path("home/<slug:slug>"),
 ]

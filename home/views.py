@@ -1,11 +1,11 @@
 """This will keep the views"""
 
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
-def my_blog(request):
+
+def starting_page(request):
     """
-    The views for the  project
+    The startpage views
     """
-    return HttpResponse("Hello, Blog!")
+    return render(request, 'home/index.html')
