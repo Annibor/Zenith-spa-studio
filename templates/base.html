@@ -8,6 +8,21 @@
     {% block css_files %}{% endblock %}
   </head>
   <body>
-    {% block content %} {% endblock %}
+    <header>
+      <h1>Zenith Spa Studio</h1>
+      <nav>Here will be links to pages</nav>
+    </header>
+    <main>{% block content %} {% endblock %}</main>
+    <footer>
+      <div class="footer-div">
+        <p>Here will be adress</p>
+      </div>
+      <div>
+        <p>Here will be social media</p>
+      </div>
+      <div>
+        <p>Here will be newsletter</p>
+      </div>
+    </footer>
   </body>
 </html>
