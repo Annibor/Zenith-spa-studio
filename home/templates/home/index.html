@@ -1,31 +1,53 @@
-{% extends "base.html" %}
-
-{% block title %}
-Home
-{% endblock %}
-
+{% extends "base.html" %} {% block title %} Home {% endblock %}
+<!-- fix this code so it doesn't break-->
 {% block content %}
- <section class="hero-section">
+<section class="hero-section">
   <div class="hero">
-    <div>
-      <p>THis will be an image</p>
-    </div>
-    <div>
-      <h2>Zenith Spa studio</h2>
-      <p>Welcome to us att zenith spa text. Short descripton of company</p>
+    <div class="hero-container container mt-10">
+      <div class="row align-items-center justify-content-between">
+        <div
+          class="col-lg-4 aos-init aos-animate align-items-center"
+          data-aos="fade-left">
+          <p>This will be an image</p>
+        </div>
+        <div class="col-lg-4 aos-init aos-animate">
+          <p>Welcome to us att zenith spa text. Short descripton of company</p>
+        </div>
+      </div>
     </div>
   </div>
- </section>
- <section>
+</section>
+<section>
   <div>
-    <div>
-      <p>More info text plus link to booking?</p>
+    <div class="section mt-8">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 mx-auto text-center aos-init aos-animate">
+            <h2 class="mb-4 mt-4 heading">Zenith Spa studio</h2>
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-4 aos-init aos-animate">info More info text</div>
+          <div class="col-lg-4 aos-init aos-animate">
+            info plus link to booking?
+          </div>
+          <div class="col-lg-4 aos-init aos-animate">info</div>
+        </div>
+      </div>
     </div>
-    <div>
-      <div> <p> a link to booking or registration  </p></div>
-      <div> <p>a inpput feild for newsletter/or booking</p></div>
+    <div class="section">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4 aos-init aos-animate">
+            <p>a link to booking or registration</p>
+          </div>
+          <div class="col-lg-4 aos-init aos-animate">
+            <p>a inpput feild for newsletter/or booking</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
- </section>
+</section>
 
-{%endblock %}
+{% endblock %}

@@ -3,7 +3,6 @@
 /* -------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lato:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;700&family=Work+Sans:wght@100;300;500&display=swap");
 
-
 /* -- Asterisk wildcard selector to override default styles added by the browser -- */
 * {
   padding: 0;
@@ -15,4 +14,24 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+}
+
+/* -------------------*/
+/*- BASE.HTML STYLES -*/
+/* -------------------*/
+
+/* -- HEADER & footer color theme -- */
+.h-f-background-color {
+  background-color: rgb(24, 22, 19);
+  color: #fff;
+}
+
+/* -- Main margin top to make main move under header */
+.main-margin {
+  margin-top: 25rem;
+}
+
+/* -- Hero Section -- */
+.hero-container {
+  max-width: 120rem;
 }
