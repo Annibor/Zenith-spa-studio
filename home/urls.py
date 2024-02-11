@@ -5,6 +5,4 @@ from . import views
 
 urlpatterns = [
     path("", views.starting_page, name="starting_page"),
-   # path("home","),
-   # path("home/<slug:slug>"),
 ]
